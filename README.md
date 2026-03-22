@@ -61,8 +61,8 @@ plt.xlabel("Students")
 plt.ylabel("Scores")
 plt.show()
 
-# ---------- Pie Chart ----------
-# Count frequency of scores
+#   Pie Chart 
+count frequency of scores
 score_count = defaultdict(int)
 for score in scores:
     score_count[score] += 1
